@@ -3,7 +3,7 @@
 >Anastasia Cunev 
 >FAF - 211
 
-#Analyzed Algorithms:
+# Analyzed Algorithms:
 - Recursive Method 
 - Iterative Method 
 - Dynamic Programming Method  
