@@ -10,7 +10,6 @@ def sieve_of_eratosthenes_4(n):
                 c[i] = False
             j += 1
         i += 1
-
     # for p in range(2, n + 1):
     #     if c[p]:
     #         prime.append(p)

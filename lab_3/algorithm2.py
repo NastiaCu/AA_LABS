@@ -14,3 +14,4 @@ def sieve_of_eratosthenes_2(n):
     #         prime2.append(p)
     # print(prime2)
     return c
+

@@ -16,3 +16,5 @@ def sieve_of_eratosthenes_3(n):
     #         prime.append(p)
     # print(prime)
     return c
+
+
