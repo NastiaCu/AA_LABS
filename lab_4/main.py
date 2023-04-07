@@ -19,16 +19,16 @@ for j in x:
     y3.append(time_algorithm(bfs, balanced))
     y4.append(time_algorithm(bfs, unbalanced))
 
-# results(x, y1, dfs.__name__)
+results(x, y2, "DFS of an Unbalanced tree")
 
-
-plt.plot(x, y1, label="balanced_dfs", color="r")
-plt.plot(x, y2, label="unbalanced_dfs", color="g")
-plt.plot(x, y3, label="balanced_bfs", color="b")
-plt.plot(x, y4, label="unbalanced_bfs", color="k")
-
-plt.title("Algorithms")
-plt.xlabel('Size of the tree')
-plt.ylabel('Time Complexity (s)')
-plt.legend()
-plt.show()
+#
+# plt.plot(x, y1, label="balanced_dfs", color="r")
+# plt.plot(x, y2, label="unbalanced_dfs", color="g")
+# plt.plot(x, y3, label="balanced_bfs", color="b")
+# plt.plot(x, y4, label="unbalanced_bfs", color="k")
+#
+# plt.title("Algorithms")
+# plt.xlabel('Size of the tree')
+# plt.ylabel('Time Complexity (s)')
+# plt.legend()
+# plt.show()

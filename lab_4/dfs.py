@@ -6,3 +6,4 @@ def dfs(graph, start, visited=None):
     for node in graph[start] - visited:
         dfs(graph, node, visited)
     return visited
+

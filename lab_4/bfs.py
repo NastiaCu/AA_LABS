@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def bfs(graph, start):
     visited = set()
     queue = deque([start])
@@ -8,3 +9,5 @@ def bfs(graph, start):
         if vertex not in visited:
             visited.add(vertex)
             queue.extend(graph[vertex] - visited)
+
+
