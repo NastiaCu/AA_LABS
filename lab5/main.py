@@ -2,7 +2,7 @@ from denseGraph import *
 from sparseGraph import *
 from FloydWarshall import *
 from Dijkstra import *
-from results import *
+from lab_6.results import *
 
 
 x = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
